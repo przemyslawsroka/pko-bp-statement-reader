@@ -1,56 +1,31 @@
-#
-# Project specific excludes
-#
-
-tomcat
-
-#
-# Default excludes
-#
-
-# Binaries
-*.7z
-*.dmg
-*.gz
-*.iso
-*.jar
-*.rar
-*.tar
-*.zip
-*.war
-*.ear
-*.sar
+### Java
+# Compiled class file
 *.class
 
-# Maven
-target/
+# Log file
+*.log
+logs/
 
-# IntelliJ project files
-*.iml
-*.iws
-*.ipr
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+### JetBrains
+.idea
 .idea/
+*.iml
+/.settings/
+/.project
+/.classpath
 
-# eclipse project file
-.settings/
+### Eclipse
 .classpath
 .project
+org.eclipse*
 
-# NetBeans specific
-nbproject/private/
-build/
-nbbuild/
-dist/
-nbdist/
-nbactions.xml
-nb-configuration.xml
-
-
-# OS
-.DS_Store
-
-# Misc
-*.swp
-release.properties
-pom.xml.releaseBackup
-pom.xml.tag
+### Maven
+target/
